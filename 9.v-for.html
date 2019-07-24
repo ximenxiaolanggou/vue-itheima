@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+</head>
+<body>
+    <div id="app">
+       <!--遍历数组-->
+       <ul>
+           <li v-for="(item,index) in arr">{{index}}---{{item}}</li>
+       </ul>
+       <hr/>
+        <!--遍历数组对象-->
+        <ul>
+            <li v-for="(person,index) in persons">{{index}}---{{person.name}}</li>
+        </ul>
+        <hr/>
+        <!--遍历对象-->
+        <p v-for="(val,key,index) in person">{{key}}:{{val}}-----{{index}}</p>
+        <hr/>
+        <!--遍历普通数字 重 1 开始-->
+        <ul>
+            <li v-for="count in 10">{{count}}</li>
+        </ul>
+    </div>
+</body>
+<script src="js/vue-2.4.0.js"></script>
+<script>
+    var vm = new Vue({
+        el: '#app',
+        data: {
+           arr:[1,2,3,4,5,6],
+           persons:[
+               {
+                   id:1,
+                   name:'zs',
+                   age:11
+               },{
+                   id:2,
+                   name:'ls',
+                   age:12
+               },{
+                   id:3,
+                   name:'ww',
+                   age:13
+               }
+           ],
+            person:{
+                id:1,
+                name:'zl',
+                age:16
+            }
+        },
+    })
+</script>
+<style>
+
+</style>
+</html>

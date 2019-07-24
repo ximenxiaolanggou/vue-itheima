@@ -7,8 +7,13 @@
 </head>
 <body>
     <div id="app">
+        <!-- .stop阻止冒泡 -->
+        <!-- .prevent阻止默认事件 -->
+        <!-- .capture添加事件监听器时使用事件捕获模式 -->
+        <!-- .self只当事件在该元素本身(比如不是子元素)触发时触发回调 -->
+        <!-- .once事件只触发一次 -->
         <div class="inner" @click="innerHandler">
-            <input type="button" value="点击" @click="btnHandler">
+            <input type="button" value="点击" @click.stop="btnHandler">
         </div>
     </div>
 </body>

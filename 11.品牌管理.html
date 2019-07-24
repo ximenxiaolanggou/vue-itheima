@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+</head>
+<body>
+    <div id="app">
+       ID:<input v-model="id">Name:<input v-model="name"><input type="button" @click="add" value="添加">
+        <table>
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Name</th>
+                    <th>Ctime</th>
+                    <th>Operation</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr v-for="(item,index) in list" :key="index">
+                    <td>{{item.id}}</td>
+                    <td>{{item.name}}</td>
+                    <td>{{item.Ctime}}</td>
+                    <td>操作</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+<script src="js/vue-2.4.0.js"></script>
+<script>
+    var vm = new Vue({
+        el: '#app',
+        data: {
+           id:null,
+           name:null,
+           list:[
+               {
+                   id:1,
+                   name:'bc',
+                   Ctime:new Date()
+               },{
+                   id:2,
+                   name:'bmw',
+                   Ctime:new Date()
+               }
+           ]
+        },
+        methods:{
+            add(){
+                this.list.push({id:this.id,name:this.name,Ctime:new Date()})
+            }
+        }
+    })
+</script>
+<style>
+
+</style>
+</html>

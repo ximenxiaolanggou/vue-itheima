@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+</head>
+<body>
+    <div id="app">
+        <!--第一种方式直接用数组-->
+         <h1 :class="['red', 'thin', 'italic', 'active']">奥术大师</h1>
+        <!--第二种方式三元表达式-->
+        <h1 :class="['red', 'thin', 'italic', flag?'active':'']">奥术大师</h1>
+        <!--第三种方式对象代替三元表达式-->
+        <h1 :class="['red', 'thin', 'italic', {'active':flag}]">奥术大师</h1>
+        <!--第四种方式对象方式-->
+        <h1 :class="{'red':true,'thin':true,'italic':true,'active':flag}">奥术大师</h1>
+        <h1 :class="font1">奥术大师</h1>
+
+
+    </div>
+</body>
+<script src="js/vue-2.4.0.js"></script>
+<script>
+    var vm = new Vue({
+        el: '#app',
+        data: {
+           flag:false,
+           font1:{'red':true,'thin':true,'italic':true,'active':this.flag}
+        },
+    })
+</script>
+<style>
+    .red {
+        color: red;
+    }
+    .thin {
+        font-weight: 200;
+    }
+    .italic {
+        font-style: italic;
+    }
+    .active{
+       letter-spacing: 0.5em;
+    }
+</style>
+</html>

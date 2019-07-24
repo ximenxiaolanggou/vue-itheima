@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+</head>
+<body>
+    <div id="app">
+       <!--v-if每次显示和消失都会删除节点-->
+       <h1 v-if="flag">damon</h1>
+       <!--v-show每次显示和消失是修改display属性-->
+       <h1 v-show="flag">cai</h1>
+    </div>
+</body>
+<script src="js/vue-2.4.0.js"></script>
+<script>
+    var vm = new Vue({
+        el: '#app',
+        data: {
+            flag:true,
+        }
+    })
+</script>
+<style>
+
+</style>
+</html>
