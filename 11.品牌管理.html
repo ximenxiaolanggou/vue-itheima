@@ -22,7 +22,7 @@
                     <td>{{item.id}}</td>
                     <td>{{item.name}}</td>
                     <td>{{item.Ctime}}</td>
-                    <td>操作</td>
+                    <td><a href="" @click.prevent="del(item.id)">删除</a></td>
                 </tr>
             </tbody>
         </table>
@@ -49,7 +49,21 @@
         },
         methods:{
             add(){
+                //判断添加的ID是否重复
+                let idIsExist =  this.list.some(item => item.id == this.id)
+                if(idIsExist){
+                    alert("ID不能重复")
+                    return;
+                }
                 this.list.push({id:this.id,name:this.name,Ctime:new Date()})
+            },
+            del(val){
+                this.list.some((item,index) => {
+                    if(item.id == val){
+                        this.list.splice(index,1)
+                        return;
+                    }
+                })
             }
         }
     })
