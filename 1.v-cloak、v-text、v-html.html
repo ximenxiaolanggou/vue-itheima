@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+</head>
+<body>
+    <div id="app">
+        <!-- 使用v-cloak 能够解决插值表达式闪烁问题 -->
+        <span v-cloak>{{msg1}}</span><br/>
+        <!-- 默认 v-text 是没有闪烁问题 -->
+        <span v-text="msg2"></span><br/>
+        <!-- v-text和v-html都会覆盖元素原有内容 -->
+        <span v-html="msg3"></span>
+    </div>
+</body>
+<script src="js/vue-2.4.0.js"></script>
+<script>
+    var vm = new Vue({
+        el: '#app',
+        data: {
+            msg1: 'hello1',
+            msg2: 'hello2',
+            msg3: '<h1>hello3</h1>',
+        }
+    })
+</script>
+<style>
+    [cloak] {
+        display: none;
+    }
+</style>
+</html>

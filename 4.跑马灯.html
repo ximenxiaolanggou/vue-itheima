@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+</head>
+<body>
+    <div id="app">
+       <input type="button" value="浪起来" @click="lang"><br/>
+       <input type="button" value="低调" @click="didiao"><br/>
+        {{msg}}
+    </div>
+</body>
+<script src="js/vue-2.4.0.js"></script>
+<script>
+    var vm = new Vue({
+        el: '#app',
+        data: {
+           msg:'hello world ~ ~',
+           flush: null
+        },
+        methods:{
+            lang(){
+                if(this.flush != null){
+                    this.flush.clear();
+                    this.flush = null;
+                }
+               this.flush = setInterval(this.doLang,200)
+            },
+            doLang(){
+                let end = this.msg.substring(0,1);
+                let start = this.msg.substring(1);
+                this.msg = start + end;
+            },
+            didiao(){
+                clearInterval(this.flush)
+             }
+        }
+    })
+</script>
+<style>
+
+</style>
+</html>

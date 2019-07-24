@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+</head>
+<body>
+    <div id="app">
+        <!-- v-bind中可以写合法的JS表达式 -->
+       <input type="button" value="点击" @click="show">
+    </div>
+</body>
+<script src="js/vue-2.4.0.js"></script>
+<script>
+    var vm = new Vue({
+        el: '#app',
+        data: {
+           msg:'damoncai',
+        },
+        methods:{
+            show(){
+                alert()
+            }
+        }
+    })
+</script>
+<style>
+
+</style>
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+</head>
+<body>
+    <div id="app">
+        <div class="inner" @click="innerHandler">
+            <input type="button" value="点击" @click="btnHandler">
+        </div>
+    </div>
+</body>
+<script src="js/vue-2.4.0.js"></script>
+<script>
+    var vm = new Vue({
+        el: '#app',
+        data: {
+           msg:'damoncai',
+        },
+        methods:{
+            innerHandler(){
+                console.log('inner div')
+            },
+            btnHandler(){
+                console.log('btn')
+            }
+        }
+    })
+</script>
+<style>
+    .inner {
+        height: 100px;
+        background-color: bisque;
+    }
+</style>
+</html>
