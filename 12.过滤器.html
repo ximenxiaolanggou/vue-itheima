@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+</head>
+<body>
+    <div id="app">
+       {{msg | magic | test('haha','hehe')}}
+    </div>
+</body>
+<script src="js/vue-2.4.0.js"></script>
+<script>
+    //全局过滤器定义语法 ：注： 过滤器只能用于 v-bind和{{}} 中
+    // 1. Vue.filter('过滤器名称',function () {})
+    // 2. 过滤器中的function，第一个参数，已经被规定死了，永远是管道符前面 传递多来的数据
+    // 3. 可以同时多个过滤器
+    Vue.filter('magic',function (arg) {
+        return arg.replace(/白/g,'黑');
+    })
+    Vue.filter('test',function (arg,arg2,arg3) {
+        return arg + arg2 + arg3;
+    })
+    var vm = new Vue({
+        el: '#app',
+        data: {
+           msg:'小白兔，白了又了白！',
+        },
+        methods:{
+        },
+        filters:{                               // 当全局过滤器和私有过滤器同名时 就近原则(私有过滤器优先)
+            magic(arg){
+                return arg.replace(/白/g,'灰');
+            }
+        }
+    })
+</script>
+<style>
+
+</style>
+</html>

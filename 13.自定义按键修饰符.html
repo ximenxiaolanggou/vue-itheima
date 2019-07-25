@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+</head>
+<body>
+    <div id="app">
+       <input @keyup.enter="add">
+       <input @keyup.113="add">
+       <input @keyup.f2="add">
+    </div>
+</body>
+<script src="js/vue-2.4.0.js"></script>
+<script>
+    //自定义按键修饰符
+    Vue.config.keyCodes.f2=113
+    var vm = new Vue({
+        el: '#app',
+        data: {
+           msg:'damoncai',
+        },
+        methods:{
+            add(){
+                alert()
+            }
+        }
+    })
+</script>
+<style>
+
+</style>
+</html>

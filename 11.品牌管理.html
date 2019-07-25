@@ -7,7 +7,7 @@
 </head>
 <body>
     <div id="app">
-       ID:<input v-model="id">Name:<input v-model="name"><input type="button" @click="add" value="添加">
+       ID:<input v-model="id">Name:<input v-model="name"><input type="button" @click="add" value="添加"><input v-model="searchKey">
         <table>
             <thead>
                 <tr>
@@ -18,10 +18,10 @@
                 </tr>
             </thead>
             <tbody>
-                <tr v-for="(item,index) in list" :key="index">
+                <tr v-for="(item,index) in search(searchKey)" :key="index">
                     <td>{{item.id}}</td>
                     <td>{{item.name}}</td>
-                    <td>{{item.Ctime}}</td>
+                    <td>{{item.Ctime | formatDate}}</td>
                     <td><a href="" @click.prevent="del(item.id)">删除</a></td>
                 </tr>
             </tbody>
@@ -30,11 +30,17 @@
 </body>
 <script src="js/vue-2.4.0.js"></script>
 <script>
+    Vue.filter('formatDate',function (arg) {
+        let date = new Date(arg);
+        // padStart(arg1,arg2) arg1:字符串长度为多少，arg2:字符串长度不够时用什么补充
+        return `${date.getFullYear()}-${date.getMonth().toString().padStart(2,'0')}-${date.getDate().toString().padStart(2,'0')}`
+    })
     var vm = new Vue({
         el: '#app',
         data: {
            id:null,
            name:null,
+           searchKey:'',
            list:[
                {
                    id:1,
@@ -62,6 +68,16 @@
                     if(item.id == val){
                         this.list.splice(index,1)
                         return;
+                    }
+                })
+            },
+            search(val){
+                return this.list.filter(item => {
+                    if(val == ''){
+                        return item
+                    }
+                    if(item.name.includes(val)){
+                        return val;
                     }
                 })
             }
