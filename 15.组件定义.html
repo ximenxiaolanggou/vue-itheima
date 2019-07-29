@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+</head>
+<body>
+    <div id="app">
+        <my-component></my-component>
+        <my-component2></my-component2>
+        <my-component3></my-component3>
+        <my-component4></my-component4>
+        <secret-component></secret-component>
+        <secret-template></secret-template>
+    </div>
+    <template id="template3">
+        <h1>template4</h1>
+    </template>
+    <template id="secretTemplate">
+        <h1>secretTemplate</h1>
+    </template>
+</body>
+<script src="js/vue-2.4.0.js"></script>
+<script>
+    //创建主键第一种方式
+    //1.1使用Vue.extend来创建全局的Vue组件
+    let myComponent = Vue.extend({
+        template:'<h1>myComponent001~~</h1>'
+    })
+    //1.2使用Vue.component('组件名称','创建出来的组件模板对象')
+    //注意：如果组建名称用的是驼峰命名 使用时用 - 分隔
+    Vue.component('myComponent',myComponent)
+    //创建主键第二种方式
+    Vue.component('myComponent2',Vue.extend({
+        template:'<h1>myComponent002~~</h1>'
+    }))
+
+    Vue.component('myComponent3',{
+        template:'<div><h1>myComponent003~~</h1></div>'
+    })
+
+    //创建主键第三种方式
+    Vue.component('myComponent4',{
+        template:'#template3'
+    })
+    var vm = new Vue({
+        el: '#app',
+        components:{
+            'secretComponent':{
+                template:'<h1>私有组件</h1>'
+            },
+            'secretTemplate':{
+                template:'#secretTemplate'
+            }
+        }
+    })
+</script>
+<style>
+
+</style>
+</html>
