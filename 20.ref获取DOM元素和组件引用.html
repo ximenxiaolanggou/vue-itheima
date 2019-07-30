@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+</head>
+<body>
+    <div id="app">
+        <input value="123" ref="myInput">
+        <input type="button" value="获取refs" @click="getRefs">
+        <emit ref="myEmit"></emit>
+    </div>
+</body>
+<script src="js/vue-2.4.0.js"></script>
+<script>
+
+    var child = {
+        data(){
+            return {
+                son:{name:'datou',age:10}
+            }
+        },
+        methods:{
+          childMeth1(){
+              this.$emit('sendmesgtoparent',this.son)
+            },
+            print(){
+              console.log('子组件的打印方法')
+            }
+        },
+        template:'<h1 @click="childMeth1" ref="myh1">child</h1>'
+
+    }
+
+    var vm = new Vue({
+        el: '#app',
+        data: {
+           msg:'damoncai',
+        },
+        methods:{
+            getRefs(){
+                //获取refs引用的DOM
+                console.log(this.$refs.myInput.value)
+                //获取refs引用的组件  （数据）
+                console.log(this.$refs.myEmit.son)
+                //获取refs引用的组件  （方法）
+                console.log(this.$refs.myEmit.print())
+            }
+        },
+        components:{
+            emit:child
+        }
+    })
+</script>
+<style>
+
+</style>
+</html>

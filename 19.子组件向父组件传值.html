@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+</head>
+<body>
+    <div id="app">
+        <emit @sendmesgtoparent="show"></emit>
+    </div>
+</body>
+<script src="js/vue-2.4.0.js"></script>
+<script>
+
+    var child = {
+        data(){
+            return {
+                son:{name:'datou',age:10}
+            }
+        },
+        methods:{
+          childMeth1(){
+              this.$emit('sendmesgtoparent',this.son)
+            }
+        },
+        template:'<h1 @click="childMeth1">child</h1>'
+
+    }
+
+    var vm = new Vue({
+        el: '#app',
+        data: {
+           msg:'damoncai',
+        },
+        methods:{
+          show(data){
+              console.log(data)
+          }
+        },
+        components:{
+            emit:child
+        }
+    })
+</script>
+<style>
+
+</style>
+</html>
