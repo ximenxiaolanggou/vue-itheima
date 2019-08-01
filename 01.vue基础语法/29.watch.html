@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+</head>
+<body>
+    <div id="app">
+        <input v-model="firstname">
+        <input v-model="lastname"><br/>
+        {{firstname+lastname}}
+    </div>
+</body>
+<script src="js/vue-2.4.0.js"></script>
+<script>
+    var vm = new Vue({
+        el: '#app',
+        data: {
+            firstname:'damon',
+            lastname:'cai'
+        },
+        watch:{   //使用watch这个属性，可以监视data中指定数据的变化，然后出发这个watch中对应的function处理函数
+            firstname(newVal,oldVal){
+                this.firstname = newVal;
+            },
+            lastname(newVal,oldVal){
+                this.lastname = newVal;
+            }
+        }
+    })
+</script>
+<style>
+
+</style>
+</html>

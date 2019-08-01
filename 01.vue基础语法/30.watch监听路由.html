@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+</head>
+<body>
+    <div id="app">
+        <router-link to="/login">登录</router-link>
+        <router-link to="/register">注册</router-link>
+        <router-view></router-view>
+    </div>
+</body>
+<script src="js/vue-2.4.0.js"></script>
+<script src="js/vue-router-3.0.1.js"></script>
+<script>
+    var login = {
+        template:'<h1>login</h1>'
+    }
+
+    var register = {
+        template:'<h1>register</h1>'
+    }
+    var router = new VueRouter({
+        routes:[
+            {path:'/login',component:login},
+            {path:'/register',component:register}
+        ]
+    })
+    var vm = new Vue({
+        el: '#app',
+        data: {
+        },
+        watch:{   //使用watch监听路由
+        '$route.path':function (newVal,oldVal) {
+           if(newVal == '/login'){
+               alert('欢迎来到登录页面')
+           }else {
+               alert('欢迎来到注册页面')
+           }
+        }
+        },
+        router
+    })
+</script>
+<style>
+
+</style>
+</html>
