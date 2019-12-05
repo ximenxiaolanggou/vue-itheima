@@ -2,44 +2,140 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3d393b5b-befd-4723-a646-699b1c521bad" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/01.vue基础语法/22.router-link.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01.vue基础语法/23.redirect重定向.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01.vue基础语法/24.路由高亮.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01.vue基础语法/25.路由传参-query方式.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01.vue基础语法/26.路由传参-params方式.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01.vue基础语法/27.路由嵌套.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01.vue基础语法/28.路由经典布局.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01.vue基础语法/29.watch.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01.vue基础语法/30.watch监听路由.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01.vue基础语法/31.computed.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02.webpack基本使用方式/src/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02.webpack基本使用方式/src/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02.webpack基本使用方式/webpack.config.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1.v-cloak、v-text、v-html.html" beforeDir="false" afterPath="$PROJECT_DIR$/01.vue基础语法/1.v-cloak、v-text、v-html.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/10.v-if和v-show.html" beforeDir="false" afterPath="$PROJECT_DIR$/01.vue基础语法/10.v-if和v-show.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/11.品牌管理.html" beforeDir="false" afterPath="$PROJECT_DIR$/01.vue基础语法/11.品牌管理.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/12.过滤器.html" beforeDir="false" afterPath="$PROJECT_DIR$/01.vue基础语法/12.过滤器.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/13.自定义按键修饰符.html" beforeDir="false" afterPath="$PROJECT_DIR$/01.vue基础语法/13.自定义按键修饰符.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/14.请求.html" beforeDir="false" afterPath="$PROJECT_DIR$/01.vue基础语法/14.请求.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/15.组件定义.html" beforeDir="false" afterPath="$PROJECT_DIR$/01.vue基础语法/15.组件定义.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/16.组件切换.html" beforeDir="false" afterPath="$PROJECT_DIR$/01.vue基础语法/16.组件切换.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/17.组件切换02.html" beforeDir="false" afterPath="$PROJECT_DIR$/01.vue基础语法/17.组件切换02.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/18.父向子传值.html" beforeDir="false" afterPath="$PROJECT_DIR$/01.vue基础语法/18.父向子传值.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/19.子组件向父组件传值.html" beforeDir="false" afterPath="$PROJECT_DIR$/01.vue基础语法/19.子组件向父组件传值.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2.v-bind.html" beforeDir="false" afterPath="$PROJECT_DIR$/01.vue基础语法/2.v-bind.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/20.ref获取DOM元素和组件引用.html" beforeDir="false" afterPath="$PROJECT_DIR$/01.vue基础语法/20.ref获取DOM元素和组件引用.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/21.路由的基本使用.html" beforeDir="false" afterPath="$PROJECT_DIR$/01.vue基础语法/21.路由的基本使用.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/3.v-on.html" beforeDir="false" afterPath="$PROJECT_DIR$/01.vue基础语法/3.v-on.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/4.跑马灯.html" beforeDir="false" afterPath="$PROJECT_DIR$/01.vue基础语法/4.跑马灯.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/5.事件修饰符.html" beforeDir="false" afterPath="$PROJECT_DIR$/01.vue基础语法/5.事件修饰符.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/6.v-model.html" beforeDir="false" afterPath="$PROJECT_DIR$/01.vue基础语法/6.v-model.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/7.class.html" beforeDir="false" afterPath="$PROJECT_DIR$/01.vue基础语法/7.class.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/8.style.html" beforeDir="false" afterPath="$PROJECT_DIR$/01.vue基础语法/8.style.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/9.v-for.html" beforeDir="false" afterPath="$PROJECT_DIR$/01.vue基础语法/9.v-for.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/vue-2.4.0.js" beforeDir="false" afterPath="$PROJECT_DIR$/01.vue基础语法/js/vue-2.4.0.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/vue-resource-1.3.4.js" beforeDir="false" afterPath="$PROJECT_DIR$/01.vue基础语法/js/vue-resource-1.3.4.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/vue-router-3.0.1.js" beforeDir="false" afterPath="$PROJECT_DIR$/01.vue基础语法/js/vue-router-3.0.1.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02.webpack基本使用方式/node_modules/.cache/terser-webpack-plugin/content-v2/sha512/21/b3/96fe2965f150049e28e424752511df5fe3c805b0a79ec8df83cb293005f532bf890541d6411d5e1e6f1edb028557373f7c4b2e22d8ddefea16f5fbb20da5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02.webpack基本使用方式/node_modules/.cache/terser-webpack-plugin/content-v2/sha512/e0/cd/cd3baa1deec9988c21d4ae8368450151b66029c384f41fe8888ca21e101b49b531407b47617616f116a14a8267363fd7c68aba0a0d9a5f6a97f64969faa3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02.webpack基本使用方式/node_modules/.cache/terser-webpack-plugin/content-v2/sha512/e7/39/ca759eb340ee7ccb9bf347530d3b374d5cc47b2d8ca1fe520ad8a48a4a8a94f9b235a277be9df7b3caa180d9f4a11fb1f36134be61f60f33127a4b403647" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02.webpack基本使用方式/node_modules/.cache/terser-webpack-plugin/index-v5/89/a2/d2e087c814f05935a81c36cd35c4dc4215bc3181d97da860484d0718e049" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02.webpack基本使用方式/node_modules/.cache/terser-webpack-plugin/index-v5/b9/e8/8c55887148ee31d1c66d444dc90a5712c5eb5866f67980b0133ff45b837b" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02.webpack基本使用方式/node_modules/.cache/terser-webpack-plugin/index-v5/f9/1f/0beddc1f348b93d6b4d099a8a7f6d43f8e122bde56544df177a51e970ae4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02.webpack基本使用方式/node_modules/_jquery@3.4.1@jquery/AUTHORS.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02.webpack基本使用方式/node_modules/_jquery@3.4.1@jquery/LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02.webpack基本使用方式/node_modules/_jquery@3.4.1@jquery/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02.webpack基本使用方式/node_modules/_jquery@3.4.1@jquery/bower.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02.webpack基本使用方式/node_modules/_jquery@3.4.1@jquery/dist/core.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02.webpack基本使用方式/node_modules/_jquery@3.4.1@jquery/dist/jquery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02.webpack基本使用方式/node_modules/_jquery@3.4.1@jquery/dist/jquery.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02.webpack基本使用方式/node_modules/_jquery@3.4.1@jquery/dist/jquery.min.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02.webpack基本使用方式/node_modules/_jquery@3.4.1@jquery/dist/jquery.slim.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02.webpack基本使用方式/node_modules/_jquery@3.4.1@jquery/dist/jquery.slim.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02.webpack基本使用方式/node_modules/_jquery@3.4.1@jquery/dist/jquery.slim.min.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02.webpack基本使用方式/node_modules/_jquery@3.4.1@jquery/external/sizzle/LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02.webpack基本使用方式/node_modules/_jquery@3.4.1@jquery/external/sizzle/dist/sizzle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02.webpack基本使用方式/node_modules/_jquery@3.4.1@jquery/external/sizzle/dist/sizzle.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02.webpack基本使用方式/node_modules/_jquery@3.4.1@jquery/external/sizzle/dist/sizzle.min.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02.webpack基本使用方式/node_modules/_jquery@3.4.1@jquery/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02.webpack基本使用方式/node_modules/_jquery@3.4.1@jquery/src/.eslintrc.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02.webpack基本使用方式/node_modules/_jquery@3.4.1@jquery/src/ajax.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02.webpack基本使用方式/node_modules/_jquery@3.4.1@jquery/src/ajax/jsonp.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02.webpack基本使用方式/node_modules/_jquery@3.4.1@jquery/src/ajax/load.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02.webpack基本使用方式/node_modules/_jquery@3.4.1@jquery/src/ajax/parseXML.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02.webpack基本使用方式/node_modules/_jquery@3.4.1@jquery/src/ajax/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02.webpack基本使用方式/node_modules/_jquery@3.4.1@jquery/src/ajax/var/location.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02.webpack基本使用方式/node_modules/_jquery@3.4.1@jquery/src/ajax/var/nonce.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02.webpack基本使用方式/node_modules/_jquery@3.4.1@jquery/src/ajax/var/rquery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02.webpack基本使用方式/node_modules/_jquery@3.4.1@jquery/src/ajax/xhr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02.webpack基本使用方式/node_modules/_jquery@3.4.1@jquery/src/attributes.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02.webpack基本使用方式/node_modules/_jquery@3.4.1@jquery/src/attributes/attr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02.webpack基本使用方式/node_modules/_jquery@3.4.1@jquery/src/attributes/classes.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02.webpack基本使用方式/node_modules/_jquery@3.4.1@jquery/src/attributes/prop.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02.webpack基本使用方式/node_modules/_jquery@3.4.1@jquery/src/attributes/support.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02.webpack基本使用方式/node_modules/_jquery@3.4.1@jquery/src/attributes/val.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02.webpack基本使用方式/node_modules/_jquery@3.4.1@jquery/src/callbacks.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02.webpack基本使用方式/node_modules/_jquery@3.4.1@jquery/src/core.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02.webpack基本使用方式/node_modules/_jquery@3.4.1@jquery/src/core/DOMEval.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02.webpack基本使用方式/node_modules/_jquery@3.4.1@jquery/src/core/access.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02.webpack基本使用方式/node_modules/_jquery@3.4.1@jquery/src/core/camelCase.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02.webpack基本使用方式/node_modules/_jquery@3.4.1@jquery/src/core/init.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02.webpack基本使用方式/node_modules/_jquery@3.4.1@jquery/src/core/isAttached.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02.webpack基本使用方式/node_modules/_jquery@3.4.1@jquery/src/core/nodeName.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02.webpack基本使用方式/node_modules/_jquery@3.4.1@jquery/src/core/parseHTML.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02.webpack基本使用方式/node_modules/_jquery@3.4.1@jquery/src/core/ready-no-deferred.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02.webpack基本使用方式/node_modules/_jquery@3.4.1@jquery/src/core/ready.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02.webpack基本使用方式/node_modules/_jquery@3.4.1@jquery/src/core/readyException.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02.webpack基本使用方式/node_modules/_jquery@3.4.1@jquery/src/core/stripAndCollapse.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02.webpack基本使用方式/node_modules/_jquery@3.4.1@jquery/src/core/support.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02.webpack基本使用方式/node_modules/_jquery@3.4.1@jquery/src/core/toType.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02.webpack基本使用方式/node_modules/_jquery@3.4.1@jquery/src/core/var/rsingleTag.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02.webpack基本使用方式/node_modules/_jquery@3.4.1@jquery/src/css.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02.webpack基本使用方式/node_modules/_jquery@3.4.1@jquery/src/css/addGetHookIf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02.webpack基本使用方式/node_modules/_jquery@3.4.1@jquery/src/css/adjustCSS.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02.webpack基本使用方式/node_modules/_jquery@3.4.1@jquery/src/css/curCSS.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02.webpack基本使用方式/node_modules/_jquery@3.4.1@jquery/src/css/finalPropName.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02.webpack基本使用方式/node_modules/_jquery@3.4.1@jquery/src/css/hiddenVisibleSelectors.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02.webpack基本使用方式/node_modules/_jquery@3.4.1@jquery/src/css/showHide.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02.webpack基本使用方式/node_modules/_jquery@3.4.1@jquery/src/css/support.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02.webpack基本使用方式/node_modules/_jquery@3.4.1@jquery/src/css/var/cssExpand.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02.webpack基本使用方式/node_modules/_jquery@3.4.1@jquery/src/css/var/getStyles.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02.webpack基本使用方式/node_modules/_jquery@3.4.1@jquery/src/css/var/isHiddenWithinTree.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02.webpack基本使用方式/node_modules/_jquery@3.4.1@jquery/src/css/var/rboxStyle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02.webpack基本使用方式/node_modules/_jquery@3.4.1@jquery/src/css/var/rnumnonpx.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02.webpack基本使用方式/node_modules/_jquery@3.4.1@jquery/src/css/var/swap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02.webpack基本使用方式/node_modules/_jquery@3.4.1@jquery/src/data.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02.webpack基本使用方式/node_modules/_jquery@3.4.1@jquery/src/data/Data.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02.webpack基本使用方式/node_modules/_jquery@3.4.1@jquery/src/data/var/acceptData.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02.webpack基本使用方式/node_modules/_jquery@3.4.1@jquery/src/data/var/dataPriv.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02.webpack基本使用方式/node_modules/_jquery@3.4.1@jquery/src/data/var/dataUser.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02.webpack基本使用方式/node_modules/_jquery@3.4.1@jquery/src/deferred.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02.webpack基本使用方式/node_modules/_jquery@3.4.1@jquery/src/deferred/exceptionHook.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02.webpack基本使用方式/node_modules/_jquery@3.4.1@jquery/src/deprecated.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02.webpack基本使用方式/node_modules/_jquery@3.4.1@jquery/src/dimensions.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02.webpack基本使用方式/node_modules/_jquery@3.4.1@jquery/src/effects.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02.webpack基本使用方式/node_modules/_jquery@3.4.1@jquery/src/effects/Tween.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02.webpack基本使用方式/node_modules/_jquery@3.4.1@jquery/src/effects/animatedSelector.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02.webpack基本使用方式/node_modules/_jquery@3.4.1@jquery/src/event.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02.webpack基本使用方式/node_modules/_jquery@3.4.1@jquery/src/event/ajax.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02.webpack基本使用方式/node_modules/_jquery@3.4.1@jquery/src/event/alias.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02.webpack基本使用方式/node_modules/_jquery@3.4.1@jquery/src/event/focusin.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02.webpack基本使用方式/node_modules/_jquery@3.4.1@jquery/src/event/support.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02.webpack基本使用方式/node_modules/_jquery@3.4.1@jquery/src/event/trigger.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02.webpack基本使用方式/node_modules/_jquery@3.4.1@jquery/src/exports/amd.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02.webpack基本使用方式/node_modules/_jquery@3.4.1@jquery/src/exports/global.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02.webpack基本使用方式/node_modules/_jquery@3.4.1@jquery/src/jquery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02.webpack基本使用方式/node_modules/_jquery@3.4.1@jquery/src/manipulation.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02.webpack基本使用方式/node_modules/_jquery@3.4.1@jquery/src/manipulation/_evalUrl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02.webpack基本使用方式/node_modules/_jquery@3.4.1@jquery/src/manipulation/buildFragment.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02.webpack基本使用方式/node_modules/_jquery@3.4.1@jquery/src/manipulation/getAll.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02.webpack基本使用方式/node_modules/_jquery@3.4.1@jquery/src/manipulation/setGlobalEval.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02.webpack基本使用方式/node_modules/_jquery@3.4.1@jquery/src/manipulation/support.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02.webpack基本使用方式/node_modules/_jquery@3.4.1@jquery/src/manipulation/var/rscriptType.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02.webpack基本使用方式/node_modules/_jquery@3.4.1@jquery/src/manipulation/var/rtagName.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02.webpack基本使用方式/node_modules/_jquery@3.4.1@jquery/src/manipulation/wrapMap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02.webpack基本使用方式/node_modules/_jquery@3.4.1@jquery/src/offset.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02.webpack基本使用方式/node_modules/_jquery@3.4.1@jquery/src/queue.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02.webpack基本使用方式/node_modules/_jquery@3.4.1@jquery/src/queue/delay.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02.webpack基本使用方式/node_modules/_jquery@3.4.1@jquery/src/selector-native.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02.webpack基本使用方式/node_modules/_jquery@3.4.1@jquery/src/selector-sizzle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02.webpack基本使用方式/node_modules/_jquery@3.4.1@jquery/src/selector.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02.webpack基本使用方式/node_modules/_jquery@3.4.1@jquery/src/serialize.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02.webpack基本使用方式/node_modules/_jquery@3.4.1@jquery/src/traversing.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02.webpack基本使用方式/node_modules/_jquery@3.4.1@jquery/src/traversing/findFilter.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02.webpack基本使用方式/node_modules/_jquery@3.4.1@jquery/src/traversing/var/dir.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02.webpack基本使用方式/node_modules/_jquery@3.4.1@jquery/src/traversing/var/rneedsContext.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02.webpack基本使用方式/node_modules/_jquery@3.4.1@jquery/src/traversing/var/siblings.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02.webpack基本使用方式/node_modules/_jquery@3.4.1@jquery/src/var/ObjectFunctionString.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02.webpack基本使用方式/node_modules/_jquery@3.4.1@jquery/src/var/arr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02.webpack基本使用方式/node_modules/_jquery@3.4.1@jquery/src/var/class2type.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02.webpack基本使用方式/node_modules/_jquery@3.4.1@jquery/src/var/concat.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02.webpack基本使用方式/node_modules/_jquery@3.4.1@jquery/src/var/document.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02.webpack基本使用方式/node_modules/_jquery@3.4.1@jquery/src/var/documentElement.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02.webpack基本使用方式/node_modules/_jquery@3.4.1@jquery/src/var/fnToString.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02.webpack基本使用方式/node_modules/_jquery@3.4.1@jquery/src/var/getProto.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02.webpack基本使用方式/node_modules/_jquery@3.4.1@jquery/src/var/hasOwn.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02.webpack基本使用方式/node_modules/_jquery@3.4.1@jquery/src/var/indexOf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02.webpack基本使用方式/node_modules/_jquery@3.4.1@jquery/src/var/isFunction.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02.webpack基本使用方式/node_modules/_jquery@3.4.1@jquery/src/var/isWindow.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02.webpack基本使用方式/node_modules/_jquery@3.4.1@jquery/src/var/pnum.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02.webpack基本使用方式/node_modules/_jquery@3.4.1@jquery/src/var/push.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02.webpack基本使用方式/node_modules/_jquery@3.4.1@jquery/src/var/rcheckableType.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02.webpack基本使用方式/node_modules/_jquery@3.4.1@jquery/src/var/rcssNum.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02.webpack基本使用方式/node_modules/_jquery@3.4.1@jquery/src/var/rnothtmlwhite.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02.webpack基本使用方式/node_modules/_jquery@3.4.1@jquery/src/var/slice.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02.webpack基本使用方式/node_modules/_jquery@3.4.1@jquery/src/var/support.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02.webpack基本使用方式/node_modules/_jquery@3.4.1@jquery/src/var/toString.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02.webpack基本使用方式/node_modules/_jquery@3.4.1@jquery/src/wrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02.webpack基本使用方式/node_modules/jquery/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/02.webpack基本使用方式/node_modules/jquery/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02.webpack基本使用方式/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/02.webpack基本使用方式/package.json" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -52,25 +148,92 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/02.webpack基本使用方式/src/index.html">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/01.vue基础语法/15.组件定义.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="208">
-              <caret line="8" column="18" lean-forward="true" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+            <state relative-caret-position="468">
+              <caret line="33" column="15" selection-start-line="33" selection-start-column="15" selection-end-line="33" selection-end-column="15" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/02.webpack基本使用方式/package.json">
-          <provider selected="true" editor-type-id="text-editor" />
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/01.vue基础语法/29.watch.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="598">
+              <caret line="23" column="22" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/01.vue基础语法/8.style.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="208">
+              <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/01.vue基础语法/19.子组件向父组件传值.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="832">
+              <caret line="32" column="15" selection-start-line="32" selection-start-column="15" selection-end-line="32" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/01.vue基础语法/22.router-link.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="364">
+              <caret line="14" column="7" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/01.vue基础语法/12.过滤器.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1014">
+              <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/01.vue基础语法/25.路由传参-query方式.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="520">
+              <caret line="20" column="85" selection-start-line="20" selection-start-column="85" selection-end-line="20" selection-end-column="85" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/01.vue基础语法/21.路由的基本使用.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="572">
+              <caret line="40" column="24" selection-start-line="40" selection-start-column="15" selection-end-line="40" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/02.webpack基本使用方式/webpack.config.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="78">
+              <caret line="3" column="39" selection-start-line="3" selection-start-column="39" selection-end-line="3" selection-end-column="39" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/02.webpack基本使用方式/src/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-312">
-              <caret line="12" column="21" lean-forward="true" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
+            <state relative-caret-position="312">
+              <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -128,20 +291,23 @@
         <option value="$PROJECT_DIR$/02.webpack基本使用方式/webpack.config.js" />
         <option value="$PROJECT_DIR$/02.webpack基本使用方式/src/index.html" />
         <option value="$PROJECT_DIR$/02.webpack基本使用方式/src/main.js" />
+        <option value="$PROJECT_DIR$/02.webpack基本使用方式/package.json" />
+        <option value="$PROJECT_DIR$/01.vue基础语法/19.子组件向父组件传值.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="2159" />
-    <option name="y" value="126" />
-    <option name="width" value="1400" />
-    <option name="height" value="1000" />
+    <option name="x" value="1971" />
+    <option name="y" value="27" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -152,13 +318,12 @@
             <path>
               <item name="vue-itheima" type="b2602c69:ProjectViewProjectNode" />
               <item name="vue-itheima" type="462c0819:PsiDirectoryNode" />
-              <item name="02.webpack基本使用方式" type="462c0819:PsiDirectoryNode" />
+              <item name="01.vue基础语法" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="vue-itheima" type="b2602c69:ProjectViewProjectNode" />
               <item name="vue-itheima" type="462c0819:PsiDirectoryNode" />
               <item name="02.webpack基本使用方式" type="462c0819:PsiDirectoryNode" />
-              <item name="dist" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="vue-itheima" type="b2602c69:ProjectViewProjectNode" />
@@ -170,16 +335,16 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../vue-cms111" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -225,16 +390,29 @@
       <workItem from="1564485204383" duration="6474000" />
       <workItem from="1564570381383" duration="6846000" />
       <workItem from="1564657282987" duration="8537000" />
+      <workItem from="1564707296039" duration="10000" />
+      <workItem from="1564897489731" duration="4845000" />
+      <workItem from="1564966184893" duration="19000" />
+      <workItem from="1564984087543" duration="751000" />
+      <workItem from="1565088625279" duration="10776000" />
+      <workItem from="1565257638557" duration="678000" />
+      <workItem from="1565571849657" duration="12000" />
+      <workItem from="1565613649154" duration="603000" />
+      <workItem from="1565618345908" duration="29000" />
+      <workItem from="1565657245335" duration="24000" />
+      <workItem from="1565923694831" duration="808000" />
+      <workItem from="1566123354884" duration="1403000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44104000" />
+    <option name="totallyTimeSpent" value="64062000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1564805" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17597471" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -246,7 +424,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.35032538" />
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.03253796" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -316,13 +494,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/01.vue基础语法/11.品牌管理.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="884">
-          <caret line="34" column="63" selection-start-line="34" selection-start-column="63" selection-end-line="34" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/01.vue基础语法/13.自定义按键修饰符.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="286">
@@ -341,13 +512,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="598">
           <caret line="23" column="62" selection-start-line="23" selection-start-column="62" selection-end-line="23" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/01.vue基础语法/19.子组件向父组件传值.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="9" column="37" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
         </state>
       </provider>
     </entry>
@@ -378,20 +542,6 @@
     <entry file="file://$PROJECT_DIR$/01.vue基础语法/js/vue-resource-1.3.4.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/01.vue基础语法/15.组件定义.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/01.vue基础语法/21.路由的基本使用.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="624">
-          <caret line="24" column="33" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/01.vue基础语法/23.redirect重定向.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="780">
@@ -399,31 +549,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/01.vue基础语法/25.路由传参-query方式.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="520">
-          <caret line="20" column="85" selection-start-line="20" selection-start-column="85" selection-end-line="20" selection-end-column="85" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/01.vue基础语法/27.路由嵌套.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1014">
           <caret line="39" column="19" selection-start-line="39" selection-start-column="19" selection-end-line="39" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/01.vue基础语法/22.router-link.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="14" column="7" lean-forward="true" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/01.vue基础语法/12.过滤器.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="18" column="21" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -448,20 +577,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/01.vue基础语法/8.style.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/01.vue基础语法/29.watch.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="650">
-          <caret line="25" column="14" selection-start-line="25" selection-start-column="14" selection-end-line="25" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/01.vue基础语法/30.watch监听路由.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="461">
@@ -469,27 +584,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/02.webpack基本使用方式/src/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/02.webpack基本使用方式/dist/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1262">
-          <caret line="12" column="26" lean-forward="true" selection-end-line="75" selection-end-column="84431" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/02.webpack基本使用方式/dist/bound.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1000">
-          <caret line="75" column="84439" selection-start-line="75" selection-start-column="84439" selection-end-line="75" selection-end-column="84439" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/02.webpack基本使用方式/src/package.json" />
+    <entry file="file://$PROJECT_DIR$/02.webpack基本使用方式/dist/main.js" />
+    <entry file="file://$PROJECT_DIR$/02.webpack基本使用方式/dist/bound.js" />
     <entry file="file://$PROJECT_DIR$/01.vue基础语法/31.computed.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="605">
@@ -497,20 +594,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/02.webpack基本使用方式/package-lock.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$USER_HOME$/AppData/Roaming/npm/node_modules/webpack-cli/node_modules/v8-compile-cache/v8-compile-cache.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="606">
           <caret line="161" column="7" selection-start-line="161" selection-start-column="7" selection-end-line="161" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/02.webpack基本使用方式/webpack.config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="78">
-          <caret line="3" column="39" selection-start-line="3" selection-start-column="39" selection-end-line="3" selection-end-column="39" />
         </state>
       </provider>
     </entry>
@@ -524,22 +611,101 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/02.webpack基本使用方式/src/main.js">
+    <entry file="file://$PROJECT_DIR$/02.webpack基本使用方式/package-lock.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-312">
-          <caret line="12" column="21" lean-forward="true" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
-        </state>
+        <state relative-caret-position="-1716" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/02.webpack基本使用方式/src/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="8" column="18" lean-forward="true" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+        <state relative-caret-position="104">
+          <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/02.webpack基本使用方式/package.json">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="7" column="30" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01.vue基础语法/11.品牌管理.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2002">
+          <caret line="77" column="21" selection-start-line="75" selection-start-column="20" selection-end-line="77" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01.vue基础语法/29.watch.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="598">
+          <caret line="23" column="22" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01.vue基础语法/8.style.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01.vue基础语法/19.子组件向父组件传值.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="832">
+          <caret line="32" column="15" selection-start-line="32" selection-start-column="15" selection-end-line="32" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01.vue基础语法/22.router-link.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="14" column="7" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01.vue基础语法/12.过滤器.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1014">
+          <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01.vue基础语法/25.路由传参-query方式.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="520">
+          <caret line="20" column="85" selection-start-line="20" selection-start-column="85" selection-end-line="20" selection-end-column="85" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02.webpack基本使用方式/webpack.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="3" column="39" selection-start-line="3" selection-start-column="39" selection-end-line="3" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02.webpack基本使用方式/src/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01.vue基础语法/21.路由的基本使用.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="572">
+          <caret line="40" column="24" selection-start-line="40" selection-start-column="15" selection-end-line="40" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01.vue基础语法/15.组件定义.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="33" column="15" selection-start-line="33" selection-start-column="15" selection-end-line="33" selection-end-column="15" />
+        </state>
+      </provider>
     </entry>
   </component>
 </project>
